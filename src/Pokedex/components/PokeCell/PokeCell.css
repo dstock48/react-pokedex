@@ -1,0 +1,12 @@
+.pokeCell {
+  width: 45%;
+  height: 60px;
+  margin: 5px;
+  outline: none;
+  border: 2px solid #3b767c;
+  background-color: #9dd7dd;
+  padding-left: 60px;
+}
+.pokeCell:hover {
+  cursor: pointer;
+}

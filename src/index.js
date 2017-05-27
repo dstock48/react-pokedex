@@ -4,5 +4,8 @@ import Pokedex from './Pokedex/Pokedex';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-ReactDOM.render(<Pokedex />, document.getElementById('root'));
+ReactDOM.render(
+  <Pokedex />,
+  document.getElementById('root')
+);
 registerServiceWorker();
